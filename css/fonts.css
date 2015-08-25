@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'MonAmourTwoMedium';
+    src: url('../fonts/MonAmourTwoMedium.eot');
+    src: url('../fonts/MonAmourTwoMedium.eot') format('embedded-opentype'),
+         url('../fonts/MonAmourTwoMedium.woff2') format('woff2'),
+         url('../fonts/MonAmourTwoMedium.woff') format('woff'),
+         url('../fonts/MonAmourTwoMedium.ttf') format('truetype'),
+         url('../fonts/MonAmourTwoMedium.svg#MonAmourTwoMedium') format('svg');
+}
+@font-face {
+    font-family: 'OfficinaSerifCTTRegular';
+    src: url('../fonts/OfficinaSerifCTTRegular.eot');
+    src: url('../fonts/OfficinaSerifCTTRegular.eot') format('embedded-opentype'),
+         url('../fonts/OfficinaSerifCTTRegular.woff2') format('woff2'),
+         url('../fonts/OfficinaSerifCTTRegular.woff') format('woff'),
+         url('../fonts/OfficinaSerifCTTRegular.ttf') format('truetype'),
+         url('../fonts/OfficinaSerifCTTRegular.svg#OfficinaSerifCTTRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'OfficinaSerifCTTBold';
+    src: url('../fonts/OfficinaSerifCTTBold.eot');
+    src: url('../fonts/OfficinaSerifCTTBold.eot') format('embedded-opentype'),
+         url('../fonts/OfficinaSerifCTTBold.woff2') format('woff2'),
+         url('../fonts/OfficinaSerifCTTBold.woff') format('woff'),
+         url('../fonts/OfficinaSerifCTTBold.ttf') format('truetype'),
+         url('../fonts/OfficinaSerifCTTBold.svg#OfficinaSerifCTTBold') format('svg');
+}

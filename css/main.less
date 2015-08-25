@@ -1,0 +1,232 @@
+@title: #c59d5f;
+
+.header{
+	height: 100%;
+	background: url(../images/header.jpg)no-repeat 50%;
+	background-size: cover;	
+	text-align: center;
+
+		.title{
+			font-size: 52px;
+			color: @title;
+			font-family: 'MonAmourTwoMedium';
+			margin-top: 50px;
+		}
+		.row{
+			height: 100%;
+		}
+}
+
+.header-title{
+	width: 100%;
+	height: 100%;
+	display: table;
+
+		img{
+			max-width: 100%;
+			height: auto;
+		}
+}
+
+.header-cell{
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.nav{
+	font-family: 'OfficinaSerifCTTRegular';
+	font-size: 20px;
+
+		.social{
+			opacity: 0.65;
+
+				&:hover{
+					opacity: 1;
+				}
+				a{
+					padding-right: 5px;
+					padding-left: 5px;
+				}
+		}
+		.contact-as{
+			padding-right: 15px;
+			position: relative;
+			top: 4px;
+		}
+}
+
+.navbar-right{
+	text-transform: uppercase;
+	font-family: 'OfficinaSerifCTTBold';
+	font-size: 17px;
+	padding-right: 30px;
+}
+.navbar-brand img{
+	max-width: 100%;
+	height: auto;
+}
+
+.drop-arrow{
+  display: inline-block;
+  width: 10px;
+  height: 6px;
+  background: url(../images/arrow-bot.png)no-repeat;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+.main-container{
+	width: 80%;
+	margin: auto;
+}
+
+.about-rest{
+	position: relative;
+	padding-top: 90px;
+	background-color: #fff;
+
+		.about-img{
+			width: 100%;
+			height: auto;
+		}
+		.small-title{
+			font-size: 18px;
+		}
+		.text{
+			font-family: 'OfficinaSerifCTTRegular';
+			color: #000;
+			font-size: 16px;
+			line-height: 1.4;
+		}
+		.history{
+			text-align: center;
+		}
+		.history-link{
+			font-family: 'Roboto', sans-serif;
+			color: @title;
+			font-size: 16px;
+			display: inline-block;
+			text-transform: uppercase;
+			margin-top: 30px;
+			text-decoration: none !important;
+			border-bottom: 1px solid #e3d1b8;
+			line-height: 1;
+		}
+		.h2{
+			line-height: 1.2;
+		}
+}
+
+.button-arrow{
+	position: absolute;
+	width: 291px;
+	height: 178px;
+	z-index: 2;
+	background: url(../images/button.png)no-repeat;
+	left: 50%;
+	margin-left: -145.5px;
+	top: -87px;
+}
+
+.h2{
+	color: @title;
+	font-family: 'MonAmourTwoMedium';
+	text-align: center;
+	font-size: 56px;
+	margin-bottom: 0;
+	line-height: 1
+}
+
+.small-title{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #000;
+}
+
+.events{
+	.small-title{
+		font-size: 20px;
+	}
+
+}
+
+.events-block{
+	padding-right: 10px;
+	position: relative;
+	overflow: hidden;
+
+		img{
+			width: 100%;
+			height: auto;
+		}
+	
+		&:hover .visible-event{
+			top: 0;
+		}
+		
+}
+.visible-event{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	top:-100%;
+	right: 10px;
+	background: rgba(0,0,0,0.75);
+	-webkit-transition: all 0.3s linear;
+		-moz-transition: all 0.3s linear;
+			  transition: all 0.3s linear;
+
+
+		.text-table{
+			width: 100%;
+    		height: 100%;
+    		display: table;
+    		text-align: center;
+    		position: relative;
+		}
+		.text-cell{
+			display: table-cell;
+			vertical-align: middle;
+		}
+		.text-event{
+			color: #fff;
+			font-size: 20px;
+			font-family: 'OfficinaSerifCTTBold';
+			margin-top: 5px;
+		}
+}
+
+.rest-list{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'OfficinaSerifCTTBold';
+	margin: 20px 0;
+	font-size: 20px;
+
+		a{
+			color: #000000;
+			text-decoration: none !important;
+
+				&:hover,
+				&.active{
+					color: @title;
+				}
+		}
+}
+
+.restaruant{
+	margin-top: 20px;
+}
+
+.about-menu{
+	padding-top: 150px;
+	padding-bottom: 200px;
+
+		img{
+			width: 100%;
+			height: auto;
+		}
+}
