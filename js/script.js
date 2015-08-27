@@ -51,12 +51,10 @@ $(document).mouseup(function (e) {
 
 $(document).ready(function(){
     $('header[data-type="background"]').each(function(){
-        var $bgobj = $(this); // создаем объект
+        var $bgobj = $(this); 
         $(window).scroll(function() {
-            var yPos = -($(window).scrollTop() / $bgobj.data('speed')); // вычисляем коэффициент 
-            // Присваиваем значение background-position
+            var yPos = -($(window).scrollTop() / $bgobj.data('speed'));
             var coords = 'center '+ yPos + 'px';
-            // Создаем эффект Parallax Scrolling
             $bgobj.css({ backgroundPosition: coords });
         });
     });
