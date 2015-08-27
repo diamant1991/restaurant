@@ -11,8 +11,8 @@
 
 .header{
 	height: 100%;
-	background: url(../images/header.jpg)no-repeat 50%;
-	background-size: cover;	
+	background: url(../images/header.jpg)center 0 no-repeat fixed;
+	background-size: cover;
 	text-align: center;
 
 		.title{
@@ -435,7 +435,7 @@
 }
 
 .header-banquets{
-	background: url(../images/banquets.jpg)no-repeat;
+	background: url(../images/banquets.jpg)center 0 no-repeat fixed;
 	background-size: cover;
 
 		.title{
@@ -637,7 +637,7 @@
 	margin-top: 35px;
 }
 .header-menu{
-	background: url(../images/menu.jpg)no-repeat 50%;
+	background: url(../images/menu.jpg)center 0 no-repeat fixed;
 	background-size: cover;
 	height:450px;
 
@@ -717,4 +717,107 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
+}
+.none-float .col-sm-6{
+	clear: both;
+}
+.menu-wrapper{
+	padding-bottom: 20px;
+}
+
+.header-rest{
+	background: url(../images/restoraunt.jpg)center 0 no-repeat fixed;
+	background-size: cover;
+}
+
+.rest-text{
+	margin-top: 25px;
+	text-align: center;
+}
+.menu-rest{
+	padding-bottom: 80px;
+}
+.about-zal{
+	padding-top: 0;
+	padding-bottom: 30px;
+
+		.h2{
+			font-size: 50px;
+			margin-bottom: 20px;
+		}
+		.text{
+			text-align: center;
+		}
+}
+
+.gallery{
+
+		img{
+			width:100%;
+			height:auto;
+		}
+		.col-md-3{
+			padding-right: 10px;
+			padding-bottom: 10px;
+			padding-left: 0;
+		}
+}
+.gallery-wrapper{
+	margin-top: 20px;
+}
+.maps-img{
+	width: 100%;
+	height: auto;
+}
+.maps{
+	margin-top: 150px;
+
+		.small-title{
+			font-size: 24px;
+			margin-bottom: 35px;
+		}
+}
+
+.reserv-table{
+	margin-top: 40px;
+}
+.header-event{
+	background: url(../images/event.jpg)center 0 no-repeat fixed;
+	background-size: cover;
+}
+.event-title{
+	font-family: 'MonAmourTwoMedium';
+	color: #fff;
+	font-size: 60px;
+}
+.event-item{
+		
+		.date{
+			font-family: 'Roboto', sans-serif;
+			color: @title;
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+		img{
+			width: 100%;
+			height:auto;
+		}
+		.text{
+			font-family: 'OfficinaSerifCTT';
+			font-size: 18px;
+			color: #000;font-family: 'OfficinaSerifCTT';
+			line-height: 1.2;
+		}
+}
+.gallery-event{
+	margin-top: 80px;
+	padding-bottom: 100px;
+}
+.event-table{
+	display: table;
+	height:370px;
+}
+.event-cell{
+	display: table-cell;
+	vertical-align: middle;
 }
