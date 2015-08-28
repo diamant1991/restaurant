@@ -13,6 +13,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/modernizr-2.8.3.min.js"></script>	
@@ -278,46 +279,44 @@
 		<h2 class="h2">Галлерея</h2>
 		<div class="gallery-wrapper clearfix">
 			<div class="col-md-3">
-				
-					<img src="images/gal.jpg" height="264" width="433" alt="">
-				
+				<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a> 
 			</div>
 			<div class="col-md-3">
-				<img src="images/gal.jpg" height="264" width="433" alt="">
+				<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a>
 			</div>
 			<div class="col-md-3">
-				<img src="images/gal.jpg" height="264" width="433" alt="">
+				<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a>
 			</div>
 			<div class="col-md-3">
-				<img src="images/gal.jpg" height="264" width="433" alt="">
-			</div>
-			<div class="col-md-3">
-				
-					<img src="images/gal.jpg" height="264" width="433" alt="">
-				
-			</div>
-			<div class="col-md-3">
-				<img src="images/gal.jpg" height="264" width="433" alt="">
-			</div>
-			<div class="col-md-3">
-				<img src="images/gal.jpg" height="264" width="433" alt="">
-			</div>
-			<div class="col-md-3">
-				<img src="images/gal.jpg" height="264" width="433" alt="">
+				<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a>
 			</div>
 			<div class="col-md-3">
 				
-					<img src="images/gal.jpg" height="264" width="433" alt="">
+				<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a>
 				
 			</div>
 			<div class="col-md-3">
-				<img src="images/gal.jpg" height="264" width="433" alt="">
+				<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a>
 			</div>
 			<div class="col-md-3">
-				<img src="images/gal.jpg" height="264" width="433" alt="">
+				<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a>
 			</div>
 			<div class="col-md-3">
-				<img src="images/gal.jpg" height="264" width="433" alt="">
+				<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a>
+			</div>
+			<div class="col-md-3">
+				
+					<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a>
+				
+			</div>
+			<div class="col-md-3">
+				<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/gal.jpg" class="fancybox"><img src="images/gal.jpg" alt=""></a>
 			</div>
 		</div>
 	</div>
@@ -431,6 +430,20 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".fancybox").fancybox({
+        padding : 0,
+			helpers: {
+				overlay: {
+					locked: false
+				}
+			}
+		});
+
+    });
+  </script>
 <script src="js/script.js"></script>
 </body>
 </html>

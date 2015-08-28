@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 	<script src="js/modernizr-2.8.3.min.js"></script>	
 </head>
 <body>
@@ -34,8 +35,8 @@
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">О Нас<span class="sr-only">(current)</span></a></li>
+      <ul class="nav navbar-nav navbar-pos">
+        <li class="active"><a href="#">О Нас</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Рестораны<span class="drop-arrow"></span></a>
           <ul class="dropdown-menu">
@@ -92,7 +93,7 @@
 	<a href="#about-rest" class="button-arrow"></a>
 	<div class="row">
 		<div class="main-container clearfix">
-			<div class="col-md-3 about-text">
+			<div class="col-lg-3 col-sm-12 about-text">
 				<div class="title">
 					<h2 class="h2">Zafferano</h2>
 					<p class="small-title">«пряный» ресторан</p>
@@ -105,17 +106,17 @@
 				</div>
 				
 			</div>
-			<div class="col-md-3">
+			<div class="col-lg-3 col-sm-4">
 				<a href="#">
 					<img src="images/about-1.jpg" height="496" width="379" alt="" class="about-img">
 				</a>
 			</div>
-			<div class="col-md-3">
+			<div class="col-lg-3 col-sm-4">
 				<a href="#">
 					<img src="images/about-2.jpg" height="496" width="379" alt="" class="about-img">
 				</a>
 			</div>
-			<div class="col-md-3">
+			<div class="col-lg-3 col-sm-4">
 				<a href="#">
 					<img src="images/about-3.jpg" height="496" width="379" alt="" class="about-img">
 				</a>
@@ -132,7 +133,7 @@
 				<p class="small-title">новости и акции</p>
 			</header>
 			<div class="events-wrapper clearfix">
-				<div class="col-md-4">
+				<div class="col-sm-4">
 					<div class="row">
 						<div class="events-block">
 							<img src="images/events-1.jpg" height="579" width="579" alt="">
@@ -149,7 +150,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-sm-4">
 					<div class="row">
 						<div class="events-block">
 							<img src="images/events-13.jpg" height="579" width="579" alt="">
@@ -166,7 +167,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-sm-4">
 					<div class="row">
 						<div class="events-block">
 							<img src="images/events-1.jpg" height="579" width="579" alt="">
@@ -239,7 +240,7 @@
 <section class="container-fluid about-menu">
 	<div class="row">
 		<div class="main-container clearfix">
-			<div class="col-md-3 about-text">
+			<div class="col-lg-3 col-sm-12 about-text">
 				<div class="title">
 					<h2 class="h2">Наше</h2>
 					<p class="small-title">меню</p>
@@ -252,7 +253,7 @@
 				</div>
 				
 			</div>
-			<div class="col-md-3">
+			<div class="col-lg-3 col-sm-4">
 				<a href="#">
 					<div class="menu-hidden">
 						<img src="images/about-1.jpg" height="496" width="379" alt="" class="about-img">
@@ -268,7 +269,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-md-3">
+			<div class="col-lg-3 col-sm-4">
 				<a href="#">
 					<div class="menu-hidden">
 						<img src="images/about-2.jpg" height="496" width="379" alt="">
@@ -284,7 +285,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-md-3">
+			<div class="col-lg-3 col-sm-4">
 				<a href="#">
 					<div class="menu-hidden">
 						<img src="images/about-3.jpg" height="496" width="379" alt="">
@@ -358,6 +359,12 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".fancybox").fancybox();
+    });
+  </script>
 <script src="js/script.js"></script>
 </body>
 </html>
